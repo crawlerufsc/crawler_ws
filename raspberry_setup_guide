@@ -1,0 +1,58 @@
+Raspberry Setup - Ubuntu 20.04 Server - ROS2 Foxy
+
+--------------------------------------------- Ubuntu prerequisites ------------------------------------------------------------------------------------------
+
+- Setting up Wi-Fi on Ubuntu Server: https://linuxconfig.org/ubuntu-20-04-connect-to-wifi-from-command-line
+
+- SSH Tutorial (Ubuntu 20.04): https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-20-04/
+
+- SSH Tutorial: https://roboticsbackend.com/enable-ssh-on-raspberry-pi-raspbian/
+
+- Mount File System: https://linuxize.com/post/how-to-use-sshfs-to-mount-remote-directories-over-ssh/
+	- sudo sshfs -o allow_other,default_permissions,IdentityFile=~/.ssh/id_rsa ubuntu@10.42.0.62:/ /home/bettanin/pi
+
+- Bluetooth Setup (Rasp + Ubuntu 20.04): https://askubuntu.com/questions/1246723/bluetooth-not-working-on-raspberry-pi-ubuntu-20-04
+
+- Connecting PS3 Controller via bluetooth: https://pimylifeup.com/raspberry-pi-playstation-controllers/
+
+--------------------------------------------- Installing ROS ------------------------------------------------------------------------------------------
+
+- Installing ROS2 Foxy: https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
+
+- Installing ROS1 Noetic: http://wiki.ros.org/noetic/Installation/Ubuntu
+
+(Not necessary) - ROS2 Building from Source prereq: https://docs.ros.org/en/dashing/Installation/Ubuntu-Development-Setup.html
+
+(Not necessary) - Building ros1_bridge: https://gitlab.cs.ut.ee/ogeret/2020-autumn-autonomous_vehicles_project/-/blob/b70ededc969fbad93b4f1dff741e9dd533e60a15/Tutorials/9%20-%20Build%20and%20run%20ROS1%20bridge.md
+
+--------------------------------------------- ROS Tools ------------------------------------------------------------------------------------------
+
+- ROS2 on Multiple Machines: https://roboticsbackend.com/ros2-multiple-machines-including-raspberry-pi/
+- ROS1 on Multiple Machines: https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/
+
+--------------------------------------------- ROS Packages ------------------------------------------------------------------------------------------
+
+- Installing rosserial package on ROS1: https://answers.ros.org/question/235620/how-to-install-rosserial-for-arduino-on-ros-kinetic/
+	Running rosserial: rosrun rosserial_python serial_node.py _port:=/dev/ttyUSB0 _baud:=115200
+
+- Building rplidar_ros2 package on ROS2: https://github.com/youngday/rplidar_ros2
+	Runninfg rplidar: (first console)      ros2 run rplidar_ros rplidarNode
+				  (second console) ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 world laser_frame
+				  (third console)     rviz2 ./install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+
+- Installing joy_linux package on ROS1: sudo apt install ros-melodic-joy-linux
+- Installing joy_linux package on ROS2: sudo apt install ros-eloquent-joy-linux
+	Running joy: rosrun joy_linux joy_linux_node dev_name:="*"
+	
+- Installing ros2bag + rosbag: sudo apt install ros-eloquent-ros2bag ros-eloquent-rosbag2* (https://github.com/ros2/rosbag2) (http://wiki.ros.org/rosbag)
+
+- Installing usb_cam package on ROS1: sudo apt install ros-melodic-usb_cam
+- Installing usb_cam package on ROS2: sudo apt install ros-eloquent-usb_cam (https://github.com/ros-drivers/usb_cam/tree/ros2)
+
+- GPS with Rasp: https://www.hackster.io/bhushanmapari/interfacing-u-blox-neo-6m-gps-module-with-raspberry-pi-3d15a5
+
+
+	
+
+
+
