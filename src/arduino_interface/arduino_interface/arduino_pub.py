@@ -30,7 +30,7 @@ class PubSub(Node):
         motor_state_msg = Int16()
         
         #self.get_logger().info('Axis 1: %f Axis 3: %f' %(joy_msg.axes[1], joy_msg.axes[3]))
-        motor_state_msg.data = int(255*(joy_msg.axes[1]))+255
+        motor_state_msg.data = int(255*abs((joy_msg.axes[1])))
         servo_state_msg.data = int(45*(joy_msg.axes[3]))+45
         
         self.servo_publisher_.publish(servo_state_msg)
