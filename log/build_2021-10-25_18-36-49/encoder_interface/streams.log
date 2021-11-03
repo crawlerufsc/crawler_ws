@@ -1,0 +1,40 @@
+[8.233s] Invoking command in '/home/ubuntu/crawler_ws/build/encoder_interface': PYTHONPATH=/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/encoder_interface --uninstall --editable --build-directory /home/ubuntu/crawler_ws/build/encoder_interface/build
+[11.089s] running develop
+[12.853s] Removing /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder-interface.egg-link (link to .)
+[13.212s] Invoked command in '/home/ubuntu/crawler_ws/build/encoder_interface' returned '0': PYTHONPATH=/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/encoder_interface --uninstall --editable --build-directory /home/ubuntu/crawler_ws/build/encoder_interface/build
+[13.217s] Invoking command in '/home/ubuntu/crawler_ws/src/encoder_interface': PYTHONPATH=/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/encoder_interface build --build-base /home/ubuntu/crawler_ws/build/encoder_interface/build install --prefix /home/ubuntu/crawler_ws/install/encoder_interface --record /home/ubuntu/crawler_ws/build/encoder_interface/install.log --single-version-externally-managed
+[15.996s] running egg_info
+[16.003s] writing ../../build/encoder_interface/encoder_interface.egg-info/PKG-INFO
+[16.006s] writing dependency_links to ../../build/encoder_interface/encoder_interface.egg-info/dependency_links.txt
+[16.008s] writing entry points to ../../build/encoder_interface/encoder_interface.egg-info/entry_points.txt
+[16.011s] writing requirements to ../../build/encoder_interface/encoder_interface.egg-info/requires.txt
+[16.013s] writing top-level names to ../../build/encoder_interface/encoder_interface.egg-info/top_level.txt
+[16.414s] reading manifest file '../../build/encoder_interface/encoder_interface.egg-info/SOURCES.txt'
+[16.430s] writing manifest file '../../build/encoder_interface/encoder_interface.egg-info/SOURCES.txt'
+[16.432s] running build
+[16.434s] running build_py
+[16.436s] creating /home/ubuntu/crawler_ws/build/encoder_interface/build
+[16.438s] creating /home/ubuntu/crawler_ws/build/encoder_interface/build/lib
+[16.439s] creating /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface
+[16.441s] copying encoder_interface/encoder_pub.py -> /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface
+[16.445s] copying encoder_interface/__init__.py -> /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface
+[16.447s] copying encoder_interface/AS5600.py -> /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface
+[16.458s] copying encoder_interface/AS5600Constants.py -> /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface
+[16.475s] running install
+[16.479s] running install_lib
+[16.480s] creating /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface
+[16.482s] copying /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface/encoder_pub.py -> /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface
+[16.483s] copying /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface/__init__.py -> /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface
+[16.484s] copying /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface/AS5600.py -> /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface
+[16.498s] copying /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface/AS5600Constants.py -> /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface
+[16.501s] byte-compiling /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface/encoder_pub.py to encoder_pub.cpython-38.pyc
+[16.505s] byte-compiling /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface/__init__.py to __init__.cpython-38.pyc
+[16.506s] byte-compiling /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface/AS5600.py to AS5600.cpython-38.pyc
+[16.518s] byte-compiling /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface/AS5600Constants.py to AS5600Constants.cpython-38.pyc
+[16.523s] running install_data
+[16.526s] running install_egg_info
+[16.550s] Copying ../../build/encoder_interface/encoder_interface.egg-info to /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface-0.0.0-py3.8.egg-info
+[16.579s] running install_scripts
+[16.754s] Installing odom_pub script to /home/ubuntu/crawler_ws/install/encoder_interface/lib/encoder_interface
+[16.760s] writing list of installed files to '/home/ubuntu/crawler_ws/build/encoder_interface/install.log'
+[17.217s] Invoked command in '/home/ubuntu/crawler_ws/src/encoder_interface' returned '0': PYTHONPATH=/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/encoder_interface build --build-base /home/ubuntu/crawler_ws/build/encoder_interface/build install --prefix /home/ubuntu/crawler_ws/install/encoder_interface --record /home/ubuntu/crawler_ws/build/encoder_interface/install.log --single-version-externally-managed

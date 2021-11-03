@@ -1,0 +1,3 @@
+[console_scripts]
+gps_pub = gps_interface.gps_pub:main
+

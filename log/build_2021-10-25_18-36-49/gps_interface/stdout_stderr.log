@@ -1,0 +1,33 @@
+running develop
+Removing /home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages/gps-interface.egg-link (link to .)
+running egg_info
+writing ../../build/gps_interface/gps_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/gps_interface/gps_interface.egg-info/dependency_links.txt
+writing entry points to ../../build/gps_interface/gps_interface.egg-info/entry_points.txt
+writing requirements to ../../build/gps_interface/gps_interface.egg-info/requires.txt
+writing top-level names to ../../build/gps_interface/gps_interface.egg-info/top_level.txt
+reading manifest file '../../build/gps_interface/gps_interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/gps_interface/gps_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/crawler_ws/build/gps_interface/build
+creating /home/ubuntu/crawler_ws/build/gps_interface/build/lib
+creating /home/ubuntu/crawler_ws/build/gps_interface/build/lib/gps_interface
+copying gps_interface/gps_pub.py -> /home/ubuntu/crawler_ws/build/gps_interface/build/lib/gps_interface
+copying gps_interface/gps_example.py -> /home/ubuntu/crawler_ws/build/gps_interface/build/lib/gps_interface
+copying gps_interface/__init__.py -> /home/ubuntu/crawler_ws/build/gps_interface/build/lib/gps_interface
+running install
+running install_lib
+creating /home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages/gps_interface
+copying /home/ubuntu/crawler_ws/build/gps_interface/build/lib/gps_interface/gps_pub.py -> /home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages/gps_interface
+copying /home/ubuntu/crawler_ws/build/gps_interface/build/lib/gps_interface/gps_example.py -> /home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages/gps_interface
+copying /home/ubuntu/crawler_ws/build/gps_interface/build/lib/gps_interface/__init__.py -> /home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages/gps_interface
+byte-compiling /home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages/gps_interface/gps_pub.py to gps_pub.cpython-38.pyc
+byte-compiling /home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages/gps_interface/gps_example.py to gps_example.cpython-38.pyc
+byte-compiling /home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages/gps_interface/__init__.py to __init__.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/gps_interface/gps_interface.egg-info to /home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages/gps_interface-0.0.0-py3.8.egg-info
+running install_scripts
+Installing gps_pub script to /home/ubuntu/crawler_ws/install/gps_interface/lib/gps_interface
+writing list of installed files to '/home/ubuntu/crawler_ws/build/gps_interface/install.log'

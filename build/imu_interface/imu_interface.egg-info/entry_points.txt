@@ -1,0 +1,3 @@
+[console_scripts]
+imu_pub = imu_interface.imu_pub:main
+

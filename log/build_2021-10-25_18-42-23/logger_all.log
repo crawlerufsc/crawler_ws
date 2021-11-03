@@ -1,0 +1,306 @@
+[2.671s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.672s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff965785e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff965785e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff96578b20>)
+[2.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.722s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/crawler_ws'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.828s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.835s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.838s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.838s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.838s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.840s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.840s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.840s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.841s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_interface) by extension 'ignore'
+[2.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_interface) by extension 'ignore_ament_install'
+[2.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_interface) by extensions ['colcon_pkg']
+[2.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_interface) by extension 'colcon_pkg'
+[2.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_interface) by extensions ['colcon_meta']
+[2.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_interface) by extension 'colcon_meta'
+[2.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_interface) by extensions ['ros']
+[2.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_interface) by extension 'ros'
+[2.864s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduino_interface' with type 'ros.ament_python' and name 'arduino_interface'
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_interface) by extension 'ignore'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_interface) by extension 'ignore_ament_install'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_interface) by extensions ['colcon_pkg']
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_interface) by extension 'colcon_pkg'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_interface) by extensions ['colcon_meta']
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_interface) by extension 'colcon_meta'
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_interface) by extensions ['ros']
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_interface) by extension 'ros'
+[2.875s] DEBUG:colcon.colcon_core.package_identification:Package 'src/encoder_interface' with type 'ros.ament_python' and name 'encoder_interface'
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'ignore'
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'ignore_ament_install'
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extensions ['colcon_pkg']
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'colcon_pkg'
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extensions ['colcon_meta']
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'colcon_meta'
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extensions ['ros']
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_interface) by extension 'ros'
+[2.885s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_interface' with type 'ros.ament_python' and name 'gps_interface'
+[2.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ignore'
+[2.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ignore_ament_install'
+[2.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['colcon_pkg']
+[2.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'colcon_pkg'
+[2.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['colcon_meta']
+[2.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'colcon_meta'
+[2.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['ros']
+[2.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ros'
+[2.895s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_interface' with type 'ros.ament_python' and name 'imu_interface'
+[2.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.060s] Level 5:colcon.colcon_core.verb:set package 'encoder_interface' build argument 'cmake_args' from command line to 'None'
+[3.060s] Level 5:colcon.colcon_core.verb:set package 'encoder_interface' build argument 'cmake_target' from command line to 'None'
+[3.060s] Level 5:colcon.colcon_core.verb:set package 'encoder_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'encoder_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'encoder_interface' build argument 'cmake_clean_first' from command line to 'False'
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'encoder_interface' build argument 'cmake_force_configure' from command line to 'False'
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'encoder_interface' build argument 'ament_cmake_args' from command line to 'None'
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'encoder_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[3.062s] Level 5:colcon.colcon_core.verb:set package 'encoder_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.062s] DEBUG:colcon.colcon_core.verb:Building package 'encoder_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/crawler_ws/build/encoder_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/crawler_ws/install/encoder_interface', 'merge_install': False, 'path': '/home/ubuntu/crawler_ws/src/encoder_interface', 'symlink_install': True, 'test_result_base': None}
+[3.085s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_args' from command line to 'None'
+[3.085s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_target' from command line to 'None'
+[3.086s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.086s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[3.086s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_clean_first' from command line to 'False'
+[3.086s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'cmake_force_configure' from command line to 'False'
+[3.087s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'ament_cmake_args' from command line to 'None'
+[3.087s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[3.087s] Level 5:colcon.colcon_core.verb:set package 'gps_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.088s] DEBUG:colcon.colcon_core.verb:Building package 'gps_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/crawler_ws/build/gps_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/crawler_ws/install/gps_interface', 'merge_install': False, 'path': '/home/ubuntu/crawler_ws/src/gps_interface', 'symlink_install': True, 'test_result_base': None}
+[3.110s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_args' from command line to 'None'
+[3.111s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_target' from command line to 'None'
+[3.111s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.111s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[3.112s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_clean_first' from command line to 'False'
+[3.112s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_force_configure' from command line to 'False'
+[3.112s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'ament_cmake_args' from command line to 'None'
+[3.112s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[3.113s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.113s] DEBUG:colcon.colcon_core.verb:Building package 'imu_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/crawler_ws/build/imu_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/crawler_ws/install/imu_interface', 'merge_install': False, 'path': '/home/ubuntu/crawler_ws/src/imu_interface', 'symlink_install': True, 'test_result_base': None}
+[3.136s] Level 5:colcon.colcon_core.verb:set package 'arduino_interface' build argument 'cmake_args' from command line to 'None'
+[3.137s] Level 5:colcon.colcon_core.verb:set package 'arduino_interface' build argument 'cmake_target' from command line to 'None'
+[3.137s] Level 5:colcon.colcon_core.verb:set package 'arduino_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.137s] Level 5:colcon.colcon_core.verb:set package 'arduino_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[3.137s] Level 5:colcon.colcon_core.verb:set package 'arduino_interface' build argument 'cmake_clean_first' from command line to 'False'
+[3.137s] Level 5:colcon.colcon_core.verb:set package 'arduino_interface' build argument 'cmake_force_configure' from command line to 'False'
+[3.138s] Level 5:colcon.colcon_core.verb:set package 'arduino_interface' build argument 'ament_cmake_args' from command line to 'None'
+[3.138s] Level 5:colcon.colcon_core.verb:set package 'arduino_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[3.138s] Level 5:colcon.colcon_core.verb:set package 'arduino_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.139s] DEBUG:colcon.colcon_core.verb:Building package 'arduino_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/crawler_ws/build/arduino_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/crawler_ws/install/arduino_interface', 'merge_install': False, 'path': '/home/ubuntu/crawler_ws/src/arduino_interface', 'symlink_install': True, 'test_result_base': None}
+[3.141s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.159s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/crawler_ws/src/encoder_interface' with build type 'ament_python'
+[3.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder_interface', 'ament_prefix_path')
+[3.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface/hook/ament_prefix_path.ps1'
+[3.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface/hook/ament_prefix_path.dsv'
+[3.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface/hook/ament_prefix_path.sh'
+[3.212s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.237s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.256s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/crawler_ws/src/gps_interface' with build type 'ament_python'
+[3.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interface', 'ament_prefix_path')
+[3.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/gps_interface/share/gps_interface/hook/ament_prefix_path.ps1'
+[3.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/crawler_ws/install/gps_interface/share/gps_interface/hook/ament_prefix_path.dsv'
+[3.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/gps_interface/share/gps_interface/hook/ament_prefix_path.sh'
+[3.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.300s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.316s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/crawler_ws/src/imu_interface' with build type 'ament_python'
+[3.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'ament_prefix_path')
+[3.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface/hook/ament_prefix_path.ps1'
+[3.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface/hook/ament_prefix_path.dsv'
+[3.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface/hook/ament_prefix_path.sh'
+[3.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.360s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[5.363s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/crawler_ws/src/encoder_interface'
+[5.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.386s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[7.363s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/crawler_ws/src/gps_interface'
+[7.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.387s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[9.365s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/crawler_ws/src/imu_interface'
+[9.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.390s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[9.424s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/crawler_ws/install/encoder_interface/share/ament_index/resource_index/packages/encoder_interface
+[9.425s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface/package.xml
+[9.427s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/crawler_ws/install/encoder_interface/lib/encoder_interface/odom_pub
+[9.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/crawler_ws/build/encoder_interface': PYTHONPATH=/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/encoder_interface --editable --build-directory /home/ubuntu/crawler_ws/build/encoder_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/encoder_interface
+[9.477s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/crawler_ws/install/gps_interface/share/ament_index/resource_index/packages/gps_interface
+[9.478s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/crawler_ws/install/gps_interface/share/gps_interface/package.xml
+[9.481s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/crawler_ws/install/gps_interface/lib/gps_interface/gps_pub
+[9.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/crawler_ws/build/gps_interface': PYTHONPATH=/home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/gps_interface --editable --build-directory /home/ubuntu/crawler_ws/build/gps_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/gps_interface
+[9.531s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/crawler_ws/install/imu_interface/share/ament_index/resource_index/packages/imu_interface
+[9.532s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface/package.xml
+[9.535s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/crawler_ws/install/imu_interface/lib/imu_interface/imu_pub
+[9.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/crawler_ws/build/imu_interface': PYTHONPATH=/home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/imu_interface --editable --build-directory /home/ubuntu/crawler_ws/build/imu_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/imu_interface
+[14.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder_interface', 'pythonpath_develop')
+[14.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/build/encoder_interface/share/encoder_interface/hook/pythonpath_develop.ps1'
+[14.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/crawler_ws/build/encoder_interface' returned '0': PYTHONPATH=/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/encoder_interface --editable --build-directory /home/ubuntu/crawler_ws/build/encoder_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/encoder_interface
+[14.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/crawler_ws/build/encoder_interface/share/encoder_interface/hook/pythonpath_develop.dsv'
+[14.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/build/encoder_interface/share/encoder_interface/hook/pythonpath_develop.sh'
+[14.282s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/encoder_interface' for CMake module files
+[14.287s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/encoder_interface' for CMake config files
+[14.294s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/encoder_interface/lib'
+[14.296s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/encoder_interface/bin'
+[14.297s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/encoder_interface/lib/pkgconfig/encoder_interface.pc'
+[14.298s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages'
+[14.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder_interface', 'pythonpath')
+[14.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface/hook/pythonpath.ps1'
+[14.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface/hook/pythonpath.dsv'
+[14.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface/hook/pythonpath.sh'
+[14.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(encoder_interface)
+[14.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface/package.ps1'
+[14.332s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface/package.dsv'
+[14.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface/package.sh'
+[14.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface/package.bash'
+[14.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface/package.zsh'
+[14.362s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/crawler_ws/install/encoder_interface/share/colcon-core/packages/encoder_interface)
+[14.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interface', 'pythonpath_develop')
+[14.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/build/gps_interface/share/gps_interface/hook/pythonpath_develop.ps1'
+[14.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/crawler_ws/build/gps_interface' returned '0': PYTHONPATH=/home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/gps_interface --editable --build-directory /home/ubuntu/crawler_ws/build/gps_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/gps_interface
+[14.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/crawler_ws/build/gps_interface/share/gps_interface/hook/pythonpath_develop.dsv'
+[14.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/build/gps_interface/share/gps_interface/hook/pythonpath_develop.sh'
+[14.396s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/gps_interface' for CMake module files
+[14.401s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/gps_interface' for CMake config files
+[14.406s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/gps_interface/lib'
+[14.407s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/gps_interface/bin'
+[14.408s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/gps_interface/lib/pkgconfig/gps_interface.pc'
+[14.408s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages'
+[14.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interface', 'pythonpath')
+[14.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/gps_interface/share/gps_interface/hook/pythonpath.ps1'
+[14.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/crawler_ws/install/gps_interface/share/gps_interface/hook/pythonpath.dsv'
+[14.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/gps_interface/share/gps_interface/hook/pythonpath.sh'
+[14.423s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_interface)
+[14.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/gps_interface/share/gps_interface/package.ps1'
+[14.433s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/crawler_ws/install/gps_interface/share/gps_interface/package.dsv'
+[14.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/gps_interface/share/gps_interface/package.sh'
+[14.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/gps_interface/share/gps_interface/package.bash'
+[14.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/gps_interface/share/gps_interface/package.zsh'
+[14.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/crawler_ws/install/gps_interface/share/colcon-core/packages/gps_interface)
+[14.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'pythonpath_develop')
+[14.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/build/imu_interface/share/imu_interface/hook/pythonpath_develop.ps1'
+[14.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/crawler_ws/build/imu_interface/share/imu_interface/hook/pythonpath_develop.dsv'
+[14.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/crawler_ws/build/imu_interface' returned '0': PYTHONPATH=/home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/imu_interface --editable --build-directory /home/ubuntu/crawler_ws/build/imu_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/imu_interface
+[14.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/build/imu_interface/share/imu_interface/hook/pythonpath_develop.sh'
+[14.479s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/imu_interface' for CMake module files
+[14.484s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/imu_interface' for CMake config files
+[14.489s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/imu_interface/lib'
+[14.489s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/imu_interface/bin'
+[14.490s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/imu_interface/lib/pkgconfig/imu_interface.pc'
+[14.491s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages'
+[14.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'pythonpath')
+[14.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface/hook/pythonpath.ps1'
+[14.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface/hook/pythonpath.dsv'
+[14.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface/hook/pythonpath.sh'
+[14.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_interface)
+[14.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface/package.ps1'
+[14.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface/package.dsv'
+[14.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface/package.sh'
+[14.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface/package.bash'
+[14.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface/package.zsh'
+[14.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/crawler_ws/install/imu_interface/share/colcon-core/packages/imu_interface)
+[14.535s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/crawler_ws/src/arduino_interface' with build type 'ament_python'
+[14.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_interface', 'ament_prefix_path')
+[14.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface/hook/ament_prefix_path.ps1'
+[14.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface/hook/ament_prefix_path.dsv'
+[14.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface/hook/ament_prefix_path.sh'
+[14.560s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.560s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.579s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[16.581s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/crawler_ws/src/arduino_interface'
+[16.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.608s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[16.666s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/crawler_ws/install/arduino_interface/share/ament_index/resource_index/packages/arduino_interface
+[16.667s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface/package.xml
+[16.670s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/crawler_ws/install/arduino_interface/lib/arduino_interface/arduino_pub
+[16.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/crawler_ws/build/arduino_interface': PYTHONPATH=/home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/arduino_interface --editable --build-directory /home/ubuntu/crawler_ws/build/arduino_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/arduino_interface
+[20.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_interface', 'pythonpath_develop')
+[20.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/build/arduino_interface/share/arduino_interface/hook/pythonpath_develop.ps1'
+[20.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/crawler_ws/build/arduino_interface' returned '0': PYTHONPATH=/home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/arduino_interface --editable --build-directory /home/ubuntu/crawler_ws/build/arduino_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/arduino_interface
+[20.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/crawler_ws/build/arduino_interface/share/arduino_interface/hook/pythonpath_develop.dsv'
+[20.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/build/arduino_interface/share/arduino_interface/hook/pythonpath_develop.sh'
+[20.397s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/arduino_interface' for CMake module files
+[20.402s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/arduino_interface' for CMake config files
+[20.407s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/arduino_interface/lib'
+[20.408s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/arduino_interface/bin'
+[20.408s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/arduino_interface/lib/pkgconfig/arduino_interface.pc'
+[20.409s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages'
+[20.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_interface', 'pythonpath')
+[20.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface/hook/pythonpath.ps1'
+[20.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface/hook/pythonpath.dsv'
+[20.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface/hook/pythonpath.sh'
+[20.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino_interface)
+[20.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface/package.ps1'
+[20.434s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface/package.dsv'
+[20.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface/package.sh'
+[20.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface/package.bash'
+[20.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface/package.zsh'
+[20.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/crawler_ws/install/arduino_interface/share/colcon-core/packages/arduino_interface)
+[20.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.457s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.506s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[20.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.508s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.512s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[20.513s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/crawler_ws/install/local_setup.ps1'
+[20.527s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/crawler_ws/install/_local_setup_util_ps1.py'
+[20.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/crawler_ws/install/setup.ps1'
+[20.558s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/crawler_ws/install/local_setup.sh'
+[20.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/crawler_ws/install/_local_setup_util_sh.py'
+[20.568s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/crawler_ws/install/setup.sh'
+[20.587s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/crawler_ws/install/local_setup.bash'
+[20.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/crawler_ws/install/setup.bash'
+[20.611s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/crawler_ws/install/local_setup.zsh'
+[20.615s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/crawler_ws/install/setup.zsh'

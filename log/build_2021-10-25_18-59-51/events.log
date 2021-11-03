@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.001812] (encoder_interface) JobQueued: {'identifier': 'encoder_interface', 'dependencies': OrderedDict()}
+[0.002457] (gps_interface) JobQueued: {'identifier': 'gps_interface', 'dependencies': OrderedDict()}
+[0.004243] (imu_interface) JobQueued: {'identifier': 'imu_interface', 'dependencies': OrderedDict()}
+[0.005511] (arduino_interface) JobQueued: {'identifier': 'arduino_interface', 'dependencies': OrderedDict([('encoder_interface', '/home/ubuntu/crawler_ws/install/encoder_interface'), ('gps_interface', '/home/ubuntu/crawler_ws/install/gps_interface'), ('imu_interface', '/home/ubuntu/crawler_ws/install/imu_interface')])}
+[0.007607] (encoder_interface) JobStarted: {'identifier': 'encoder_interface'}
+[0.099547] (-) TimerEvent: {}
+[0.103454] (gps_interface) JobStarted: {'identifier': 'gps_interface'}
+[0.162640] (imu_interface) JobStarted: {'identifier': 'imu_interface'}
+[0.199757] (-) TimerEvent: {}
+[0.301089] (-) TimerEvent: {}
+[0.402613] (-) TimerEvent: {}
+[0.503905] (-) TimerEvent: {}
+[0.605217] (-) TimerEvent: {}
+[0.706611] (-) TimerEvent: {}
+[0.807982] (-) TimerEvent: {}
+[0.909314] (-) TimerEvent: {}
+[1.010531] (-) TimerEvent: {}
+[1.111789] (-) TimerEvent: {}
+[1.213012] (-) TimerEvent: {}
+[1.314327] (-) TimerEvent: {}
+[1.415627] (-) TimerEvent: {}
+[1.516845] (-) TimerEvent: {}
+[1.618067] (-) TimerEvent: {}
+[1.719341] (-) TimerEvent: {}
+[1.820585] (-) TimerEvent: {}
+[1.921894] (-) TimerEvent: {}
+[2.023203] (-) TimerEvent: {}
+[2.124560] (-) TimerEvent: {}
+[2.226225] (-) TimerEvent: {}
+[2.333461] (-) TimerEvent: {}
+[2.434962] (-) TimerEvent: {}
+[2.536238] (-) TimerEvent: {}
+[2.637485] (-) TimerEvent: {}
+[2.738877] (-) TimerEvent: {}
+[2.840167] (-) TimerEvent: {}
+[2.941392] (-) TimerEvent: {}
+[3.042645] (-) TimerEvent: {}
+[3.143947] (-) TimerEvent: {}
+[3.245176] (-) TimerEvent: {}
+[3.346502] (-) TimerEvent: {}
+[3.447817] (-) TimerEvent: {}
+[3.549006] (-) TimerEvent: {}
+[3.650213] (-) TimerEvent: {}
+[3.751541] (-) TimerEvent: {}
+[3.852782] (-) TimerEvent: {}
+[3.954069] (-) TimerEvent: {}
+[4.055435] (-) TimerEvent: {}
+[4.156905] (-) TimerEvent: {}
+[4.258423] (-) TimerEvent: {}
+[4.360050] (-) TimerEvent: {}
+[4.461351] (-) TimerEvent: {}
+[4.562566] (-) TimerEvent: {}
+[4.663870] (-) TimerEvent: {}
+[4.765064] (-) TimerEvent: {}
+[4.866313] (-) TimerEvent: {}
+[4.967550] (-) TimerEvent: {}
+[5.068757] (-) TimerEvent: {}
+[5.169999] (-) TimerEvent: {}
+[5.271361] (-) TimerEvent: {}
+[5.372605] (-) TimerEvent: {}
+[5.473844] (-) TimerEvent: {}
+[5.575106] (-) TimerEvent: {}
+[5.676297] (-) TimerEvent: {}
+[5.777615] (-) TimerEvent: {}
+[5.878869] (-) TimerEvent: {}
+[5.980241] (-) TimerEvent: {}
+[6.081603] (-) TimerEvent: {}
+[6.183133] (-) TimerEvent: {}
+[6.253604] (encoder_interface) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/ubuntu/crawler_ws/install/encoder_interface', '--editable', '--build-directory', '/home/ubuntu/crawler_ws/build/encoder_interface/build', '--no-deps', 'install_data', '--install-dir', '/home/ubuntu/crawler_ws/install/encoder_interface'], 'cwd': '/home/ubuntu/crawler_ws/build/encoder_interface', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.42.0.1 41244 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/crawler_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/crawler_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/crawler_ws/install/imu_interface:/home/ubuntu/crawler_ws/install/gps_interface:/home/ubuntu/crawler_ws/install/encoder_interface:/home/ubuntu/crawler_ws/install/arduino_interface:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'PWD': '/home/ubuntu/crawler_ws/build/encoder_interface', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.1 41244 10.42.0.62 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/imu_interface:/home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/gps_interface:/home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/encoder_interface:/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/arduino_interface:/home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[6.283575] (-) TimerEvent: {}
+[6.298182] (gps_interface) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/ubuntu/crawler_ws/install/gps_interface', '--editable', '--build-directory', '/home/ubuntu/crawler_ws/build/gps_interface/build', '--no-deps', 'install_data', '--install-dir', '/home/ubuntu/crawler_ws/install/gps_interface'], 'cwd': '/home/ubuntu/crawler_ws/build/gps_interface', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.42.0.1 41244 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/crawler_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/crawler_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/crawler_ws/install/imu_interface:/home/ubuntu/crawler_ws/install/gps_interface:/home/ubuntu/crawler_ws/install/encoder_interface:/home/ubuntu/crawler_ws/install/arduino_interface:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'PWD': '/home/ubuntu/crawler_ws/build/gps_interface', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.1 41244 10.42.0.62 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/imu_interface:/home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/gps_interface:/home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/encoder_interface:/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/arduino_interface:/home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[6.346204] (imu_interface) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/ubuntu/crawler_ws/install/imu_interface', '--editable', '--build-directory', '/home/ubuntu/crawler_ws/build/imu_interface/build', '--no-deps', 'install_data', '--install-dir', '/home/ubuntu/crawler_ws/install/imu_interface'], 'cwd': '/home/ubuntu/crawler_ws/build/imu_interface', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.42.0.1 41244 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/crawler_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/crawler_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/crawler_ws/install/imu_interface:/home/ubuntu/crawler_ws/install/gps_interface:/home/ubuntu/crawler_ws/install/encoder_interface:/home/ubuntu/crawler_ws/install/arduino_interface:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'PWD': '/home/ubuntu/crawler_ws/build/imu_interface', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.1 41244 10.42.0.62 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/imu_interface:/home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/gps_interface:/home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/encoder_interface:/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/arduino_interface:/home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[6.383900] (-) TimerEvent: {}
+[6.485678] (-) TimerEvent: {}
+[6.588757] (-) TimerEvent: {}
+[6.691810] (-) TimerEvent: {}
+[6.794533] (-) TimerEvent: {}
+[6.897091] (-) TimerEvent: {}
+[7.000090] (-) TimerEvent: {}
+[7.102918] (-) TimerEvent: {}
+[7.206402] (-) TimerEvent: {}
+[7.310010] (-) TimerEvent: {}
+[7.412485] (-) TimerEvent: {}
+[7.515305] (-) TimerEvent: {}
+[7.618368] (-) TimerEvent: {}
+[7.721339] (-) TimerEvent: {}
+[7.824349] (-) TimerEvent: {}
+[7.926847] (-) TimerEvent: {}
+[8.029237] (-) TimerEvent: {}
+[8.131856] (-) TimerEvent: {}
+[8.234970] (-) TimerEvent: {}
+[8.337952] (-) TimerEvent: {}
+[8.440892] (-) TimerEvent: {}
+[8.544015] (-) TimerEvent: {}
+[8.647275] (-) TimerEvent: {}
+[8.750117] (-) TimerEvent: {}
+[8.827430] (encoder_interface) StdoutLine: {'line': b'running develop\n'}
+[8.850450] (-) TimerEvent: {}
+[8.864958] (gps_interface) StdoutLine: {'line': b'running develop\n'}
+[8.924931] (imu_interface) StdoutLine: {'line': b'running develop\n'}
+[8.950753] (-) TimerEvent: {}
+[9.053813] (-) TimerEvent: {}
+[9.156449] (-) TimerEvent: {}
+[9.260537] (-) TimerEvent: {}
+[9.363791] (-) TimerEvent: {}
+[9.466715] (-) TimerEvent: {}
+[9.569612] (-) TimerEvent: {}
+[9.678444] (-) TimerEvent: {}
+[9.782258] (-) TimerEvent: {}
+[9.885296] (-) TimerEvent: {}
+[9.988116] (-) TimerEvent: {}
+[10.090553] (-) TimerEvent: {}
+[10.193523] (-) TimerEvent: {}
+[10.296636] (-) TimerEvent: {}
+[10.383007] (encoder_interface) StdoutLine: {'line': b'running egg_info\n'}
+[10.385152] (encoder_interface) StdoutLine: {'line': b'writing encoder_interface.egg-info/PKG-INFO\n'}
+[10.387232] (encoder_interface) StdoutLine: {'line': b'writing dependency_links to encoder_interface.egg-info/dependency_links.txt\n'}
+[10.389450] (encoder_interface) StdoutLine: {'line': b'writing entry points to encoder_interface.egg-info/entry_points.txt\n'}
+[10.391689] (encoder_interface) StdoutLine: {'line': b'writing requirements to encoder_interface.egg-info/requires.txt\n'}
+[10.394036] (encoder_interface) StdoutLine: {'line': b'writing top-level names to encoder_interface.egg-info/top_level.txt\n'}
+[10.396914] (-) TimerEvent: {}
+[10.412503] (gps_interface) StdoutLine: {'line': b'running egg_info\n'}
+[10.414583] (gps_interface) StdoutLine: {'line': b'writing gps_interface.egg-info/PKG-INFO\n'}
+[10.416938] (gps_interface) StdoutLine: {'line': b'writing dependency_links to gps_interface.egg-info/dependency_links.txt\n'}
+[10.419647] (gps_interface) StdoutLine: {'line': b'writing entry points to gps_interface.egg-info/entry_points.txt\n'}
+[10.421480] (gps_interface) StdoutLine: {'line': b'writing requirements to gps_interface.egg-info/requires.txt\n'}
+[10.424238] (gps_interface) StdoutLine: {'line': b'writing top-level names to gps_interface.egg-info/top_level.txt\n'}
+[10.485475] (imu_interface) StdoutLine: {'line': b'running egg_info\n'}
+[10.487373] (imu_interface) StdoutLine: {'line': b'writing imu_interface.egg-info/PKG-INFO\n'}
+[10.489252] (imu_interface) StdoutLine: {'line': b'writing dependency_links to imu_interface.egg-info/dependency_links.txt\n'}
+[10.491321] (imu_interface) StdoutLine: {'line': b'writing entry points to imu_interface.egg-info/entry_points.txt\n'}
+[10.493315] (imu_interface) StdoutLine: {'line': b'writing requirements to imu_interface.egg-info/requires.txt\n'}
+[10.494861] (imu_interface) StdoutLine: {'line': b'writing top-level names to imu_interface.egg-info/top_level.txt\n'}
+[10.497135] (-) TimerEvent: {}
+[10.599502] (-) TimerEvent: {}
+[10.701886] (-) TimerEvent: {}
+[10.734425] (encoder_interface) StdoutLine: {'line': b"reading manifest file 'encoder_interface.egg-info/SOURCES.txt'\n"}
+[10.743823] (encoder_interface) StdoutLine: {'line': b"writing manifest file 'encoder_interface.egg-info/SOURCES.txt'\n"}
+[10.757249] (encoder_interface) StdoutLine: {'line': b'running build_ext\n'}
+[10.759465] (gps_interface) StdoutLine: {'line': b"reading manifest file 'gps_interface.egg-info/SOURCES.txt'\n"}
+[10.761598] (encoder_interface) StdoutLine: {'line': b'Creating /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder-interface.egg-link (link to .)\n'}
+[10.769186] (gps_interface) StdoutLine: {'line': b"writing manifest file 'gps_interface.egg-info/SOURCES.txt'\n"}
+[10.770660] (encoder_interface) StdoutLine: {'line': b'Installing encoder_pub script to /home/ubuntu/crawler_ws/install/encoder_interface/lib/encoder_interface\n'}
+[10.773115] (encoder_interface) StdoutLine: {'line': b'\n'}
+[10.774918] (encoder_interface) StdoutLine: {'line': b'Installed /home/ubuntu/crawler_ws/build/encoder_interface\n'}
+[10.776858] (encoder_interface) StdoutLine: {'line': b'running install_data\n'}
+[10.784817] (gps_interface) StdoutLine: {'line': b'running build_ext\n'}
+[10.788131] (gps_interface) StdoutLine: {'line': b'Creating /home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages/gps-interface.egg-link (link to .)\n'}
+[10.797355] (gps_interface) StdoutLine: {'line': b'Installing gps_pub script to /home/ubuntu/crawler_ws/install/gps_interface/lib/gps_interface\n'}
+[10.800720] (gps_interface) StdoutLine: {'line': b'\n'}
+[10.802742] (-) TimerEvent: {}
+[10.805687] (gps_interface) StdoutLine: {'line': b'Installed /home/ubuntu/crawler_ws/build/gps_interface\n'}
+[10.807632] (gps_interface) StdoutLine: {'line': b'running install_data\n'}
+[10.842370] (imu_interface) StdoutLine: {'line': b"reading manifest file 'imu_interface.egg-info/SOURCES.txt'\n"}
+[10.853217] (imu_interface) StdoutLine: {'line': b"writing manifest file 'imu_interface.egg-info/SOURCES.txt'\n"}
+[10.869731] (imu_interface) StdoutLine: {'line': b'running build_ext\n'}
+[10.873754] (imu_interface) StdoutLine: {'line': b'Creating /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu-interface.egg-link (link to .)\n'}
+[10.884869] (imu_interface) StdoutLine: {'line': b'Installing imu_pub script to /home/ubuntu/crawler_ws/install/imu_interface/lib/imu_interface\n'}
+[10.888667] (imu_interface) StdoutLine: {'line': b'\n'}
+[10.891432] (imu_interface) StdoutLine: {'line': b'Installed /home/ubuntu/crawler_ws/build/imu_interface\n'}
+[10.893242] (imu_interface) StdoutLine: {'line': b'running install_data\n'}
+[10.903473] (-) TimerEvent: {}
+[11.007345] (-) TimerEvent: {}
+[11.081775] (encoder_interface) CommandEnded: {'returncode': 0}
+[11.107678] (-) TimerEvent: {}
+[11.212696] (-) TimerEvent: {}
+[11.222010] (encoder_interface) JobEnded: {'identifier': 'encoder_interface', 'rc': 0}
+[11.235248] (gps_interface) CommandEnded: {'returncode': 0}
+[11.311201] (gps_interface) JobEnded: {'identifier': 'gps_interface', 'rc': 0}
+[11.320102] (-) TimerEvent: {}
+[11.322414] (imu_interface) CommandEnded: {'returncode': 0}
+[11.395680] (imu_interface) JobEnded: {'identifier': 'imu_interface', 'rc': 0}
+[11.406737] (arduino_interface) JobStarted: {'identifier': 'arduino_interface'}
+[11.420397] (-) TimerEvent: {}
+[11.526950] (-) TimerEvent: {}
+[11.628486] (-) TimerEvent: {}
+[11.729644] (-) TimerEvent: {}
+[11.830706] (-) TimerEvent: {}
+[11.931914] (-) TimerEvent: {}
+[12.032998] (-) TimerEvent: {}
+[12.134168] (-) TimerEvent: {}
+[12.235470] (-) TimerEvent: {}
+[12.336660] (-) TimerEvent: {}
+[12.437780] (-) TimerEvent: {}
+[12.538943] (-) TimerEvent: {}
+[12.640133] (-) TimerEvent: {}
+[12.741227] (-) TimerEvent: {}
+[12.842308] (-) TimerEvent: {}
+[12.943457] (-) TimerEvent: {}
+[13.044571] (-) TimerEvent: {}
+[13.145732] (-) TimerEvent: {}
+[13.246872] (-) TimerEvent: {}
+[13.348231] (-) TimerEvent: {}
+[13.454823] (-) TimerEvent: {}
+[13.528106] (arduino_interface) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/ubuntu/crawler_ws/install/arduino_interface', '--editable', '--build-directory', '/home/ubuntu/crawler_ws/build/arduino_interface/build', '--no-deps', 'install_data', '--install-dir', '/home/ubuntu/crawler_ws/install/arduino_interface'], 'cwd': '/home/ubuntu/crawler_ws/build/arduino_interface', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.42.0.1 41244 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/crawler_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/crawler_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/crawler_ws/install/imu_interface:/home/ubuntu/crawler_ws/install/gps_interface:/home/ubuntu/crawler_ws/install/encoder_interface:/home/ubuntu/crawler_ws/install/arduino_interface:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'PWD': '/home/ubuntu/crawler_ws/build/arduino_interface', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.1 41244 10.42.0.62 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/imu_interface:/home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/gps_interface:/home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/encoder_interface:/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:/home/ubuntu/crawler_ws/build/arduino_interface:/home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[13.555398] (-) TimerEvent: {}
+[13.656933] (-) TimerEvent: {}
+[13.758076] (-) TimerEvent: {}
+[13.859259] (-) TimerEvent: {}
+[13.960406] (-) TimerEvent: {}
+[14.061584] (-) TimerEvent: {}
+[14.162795] (-) TimerEvent: {}
+[14.263982] (-) TimerEvent: {}
+[14.365142] (-) TimerEvent: {}
+[14.466335] (-) TimerEvent: {}
+[14.567581] (-) TimerEvent: {}
+[14.668831] (-) TimerEvent: {}
+[14.770018] (-) TimerEvent: {}
+[14.871211] (-) TimerEvent: {}
+[14.972385] (-) TimerEvent: {}
+[15.073551] (-) TimerEvent: {}
+[15.174714] (-) TimerEvent: {}
+[15.276055] (-) TimerEvent: {}
+[15.377176] (-) TimerEvent: {}
+[15.478408] (-) TimerEvent: {}
+[15.535701] (arduino_interface) StdoutLine: {'line': b'running develop\n'}
+[15.578688] (-) TimerEvent: {}
+[15.679895] (-) TimerEvent: {}
+[15.780988] (-) TimerEvent: {}
+[15.882154] (-) TimerEvent: {}
+[15.983392] (-) TimerEvent: {}
+[16.084484] (-) TimerEvent: {}
+[16.185575] (-) TimerEvent: {}
+[16.286741] (-) TimerEvent: {}
+[16.388020] (-) TimerEvent: {}
+[16.489248] (-) TimerEvent: {}
+[16.590407] (-) TimerEvent: {}
+[16.691640] (-) TimerEvent: {}
+[16.699519] (arduino_interface) StdoutLine: {'line': b'running egg_info\n'}
+[16.700739] (arduino_interface) StdoutLine: {'line': b'writing arduino_interface.egg-info/PKG-INFO\n'}
+[16.702411] (arduino_interface) StdoutLine: {'line': b'writing dependency_links to arduino_interface.egg-info/dependency_links.txt\n'}
+[16.703996] (arduino_interface) StdoutLine: {'line': b'writing entry points to arduino_interface.egg-info/entry_points.txt\n'}
+[16.705303] (arduino_interface) StdoutLine: {'line': b'writing requirements to arduino_interface.egg-info/requires.txt\n'}
+[16.706446] (arduino_interface) StdoutLine: {'line': b'writing top-level names to arduino_interface.egg-info/top_level.txt\n'}
+[16.791871] (-) TimerEvent: {}
+[16.893003] (-) TimerEvent: {}
+[16.994199] (-) TimerEvent: {}
+[17.008757] (arduino_interface) StdoutLine: {'line': b"reading manifest file 'arduino_interface.egg-info/SOURCES.txt'\n"}
+[17.016899] (arduino_interface) StdoutLine: {'line': b"writing manifest file 'arduino_interface.egg-info/SOURCES.txt'\n"}
+[17.028467] (arduino_interface) StdoutLine: {'line': b'running build_ext\n'}
+[17.031144] (arduino_interface) StdoutLine: {'line': b'Creating /home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages/arduino-interface.egg-link (link to .)\n'}
+[17.037779] (arduino_interface) StdoutLine: {'line': b'Installing arduino_pub script to /home/ubuntu/crawler_ws/install/arduino_interface/lib/arduino_interface\n'}
+[17.040191] (arduino_interface) StdoutLine: {'line': b'\n'}
+[17.041412] (arduino_interface) StdoutLine: {'line': b'Installed /home/ubuntu/crawler_ws/build/arduino_interface\n'}
+[17.042253] (arduino_interface) StdoutLine: {'line': b'running install_data\n'}
+[17.043391] (arduino_interface) StdoutLine: {'line': b'copying launch/crawler_launch.py -> /home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface\n'}
+[17.094529] (-) TimerEvent: {}
+[17.195873] (-) TimerEvent: {}
+[17.249571] (arduino_interface) CommandEnded: {'returncode': 0}
+[17.296534] (-) TimerEvent: {}
+[17.332758] (arduino_interface) JobEnded: {'identifier': 'arduino_interface', 'rc': 0}
+[17.338966] (-) EventReactorShutdown: {}

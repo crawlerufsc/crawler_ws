@@ -1,0 +1,36 @@
+running develop
+Removing /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder-interface.egg-link (link to .)
+running egg_info
+writing ../../build/encoder_interface/encoder_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/encoder_interface/encoder_interface.egg-info/dependency_links.txt
+writing entry points to ../../build/encoder_interface/encoder_interface.egg-info/entry_points.txt
+writing requirements to ../../build/encoder_interface/encoder_interface.egg-info/requires.txt
+writing top-level names to ../../build/encoder_interface/encoder_interface.egg-info/top_level.txt
+reading manifest file '../../build/encoder_interface/encoder_interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/encoder_interface/encoder_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/crawler_ws/build/encoder_interface/build
+creating /home/ubuntu/crawler_ws/build/encoder_interface/build/lib
+creating /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface
+copying encoder_interface/encoder_pub.py -> /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface
+copying encoder_interface/__init__.py -> /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface
+copying encoder_interface/AS5600.py -> /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface
+copying encoder_interface/AS5600Constants.py -> /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface
+running install
+running install_lib
+creating /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface
+copying /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface/encoder_pub.py -> /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface
+copying /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface/__init__.py -> /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface
+copying /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface/AS5600.py -> /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface
+copying /home/ubuntu/crawler_ws/build/encoder_interface/build/lib/encoder_interface/AS5600Constants.py -> /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface
+byte-compiling /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface/encoder_pub.py to encoder_pub.cpython-38.pyc
+byte-compiling /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface/AS5600.py to AS5600.cpython-38.pyc
+byte-compiling /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface/AS5600Constants.py to AS5600Constants.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/encoder_interface/encoder_interface.egg-info to /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder_interface-0.0.0-py3.8.egg-info
+running install_scripts
+Installing odom_pub script to /home/ubuntu/crawler_ws/install/encoder_interface/lib/encoder_interface
+writing list of installed files to '/home/ubuntu/crawler_ws/build/encoder_interface/install.log'

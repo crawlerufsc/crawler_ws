@@ -1,0 +1,17 @@
+[6.209s] Invoking command in '/home/ubuntu/crawler_ws/build/gps_interface': PYTHONPATH=/home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/gps_interface --editable --build-directory /home/ubuntu/crawler_ws/build/gps_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/gps_interface
+[8.736s] running develop
+[10.287s] running egg_info
+[10.289s] writing gps_interface.egg-info/PKG-INFO
+[10.291s] writing dependency_links to gps_interface.egg-info/dependency_links.txt
+[10.293s] writing entry points to gps_interface.egg-info/entry_points.txt
+[10.297s] writing requirements to gps_interface.egg-info/requires.txt
+[10.299s] writing top-level names to gps_interface.egg-info/top_level.txt
+[10.635s] reading manifest file 'gps_interface.egg-info/SOURCES.txt'
+[10.643s] writing manifest file 'gps_interface.egg-info/SOURCES.txt'
+[10.660s] running build_ext
+[10.668s] Creating /home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages/gps-interface.egg-link (link to .)
+[10.673s] Installing gps_pub script to /home/ubuntu/crawler_ws/install/gps_interface/lib/gps_interface
+[10.677s] 
+[10.678s] Installed /home/ubuntu/crawler_ws/build/gps_interface
+[10.680s] running install_data
+[11.117s] Invoked command in '/home/ubuntu/crawler_ws/build/gps_interface' returned '0': PYTHONPATH=/home/ubuntu/crawler_ws/install/gps_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/gps_interface --editable --build-directory /home/ubuntu/crawler_ws/build/gps_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/gps_interface

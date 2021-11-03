@@ -1,0 +1,18 @@
+[2.140s] Invoking command in '/home/ubuntu/crawler_ws/build/arduino_interface': PYTHONPATH=/home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/arduino_interface --editable --build-directory /home/ubuntu/crawler_ws/build/arduino_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/arduino_interface
+[4.141s] running develop
+[5.310s] running egg_info
+[5.311s] writing arduino_interface.egg-info/PKG-INFO
+[5.313s] writing dependency_links to arduino_interface.egg-info/dependency_links.txt
+[5.315s] writing entry points to arduino_interface.egg-info/entry_points.txt
+[5.317s] writing requirements to arduino_interface.egg-info/requires.txt
+[5.318s] writing top-level names to arduino_interface.egg-info/top_level.txt
+[5.622s] reading manifest file 'arduino_interface.egg-info/SOURCES.txt'
+[5.629s] writing manifest file 'arduino_interface.egg-info/SOURCES.txt'
+[5.641s] running build_ext
+[5.644s] Creating /home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages/arduino-interface.egg-link (link to .)
+[5.650s] Installing arduino_pub script to /home/ubuntu/crawler_ws/install/arduino_interface/lib/arduino_interface
+[5.653s] 
+[5.654s] Installed /home/ubuntu/crawler_ws/build/arduino_interface
+[5.655s] running install_data
+[5.656s] copying launch/crawler_launch.py -> /home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface
+[5.869s] Invoked command in '/home/ubuntu/crawler_ws/build/arduino_interface' returned '0': PYTHONPATH=/home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/arduino_interface --editable --build-directory /home/ubuntu/crawler_ws/build/arduino_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/arduino_interface

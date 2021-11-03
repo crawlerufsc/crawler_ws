@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: gps-interface
+Version: 0.0.0
+Summary: Node to interface a GPS Neo-6m over UART
+Home-page: UNKNOWN
+Maintainer: bettanin
+Maintainer-email: gabrielnalinb@gmail.com
+License: TODO: License declaration
+Description: UNKNOWN
+Platform: UNKNOWN

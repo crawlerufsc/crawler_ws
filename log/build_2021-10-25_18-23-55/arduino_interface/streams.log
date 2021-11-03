@@ -1,0 +1,25 @@
+[7.667s] Invoking command in '/home/ubuntu/crawler_ws/build/arduino_interface': PYTHONPATH=/home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/arduino_interface --editable --build-directory /home/ubuntu/crawler_ws/build/arduino_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/arduino_interface
+[10.420s] running develop
+[12.061s] running egg_info
+[12.063s] creating arduino_interface.egg-info
+[12.065s] writing arduino_interface.egg-info/PKG-INFO
+[12.068s] writing dependency_links to arduino_interface.egg-info/dependency_links.txt
+[12.071s] writing entry points to arduino_interface.egg-info/entry_points.txt
+[12.073s] writing requirements to arduino_interface.egg-info/requires.txt
+[12.083s] writing top-level names to arduino_interface.egg-info/top_level.txt
+[12.090s] writing manifest file 'arduino_interface.egg-info/SOURCES.txt'
+[12.461s] reading manifest file 'arduino_interface.egg-info/SOURCES.txt'
+[12.468s] writing manifest file 'arduino_interface.egg-info/SOURCES.txt'
+[12.486s] running build_ext
+[12.489s] Creating /home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages/site.py
+[12.513s] Creating /home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages/arduino-interface.egg-link (link to .)
+[12.521s] Installing arduino_pub script to /home/ubuntu/crawler_ws/install/arduino_interface/lib/arduino_interface
+[12.534s] 
+[12.548s] Installed /home/ubuntu/crawler_ws/build/arduino_interface
+[12.550s] running install_data
+[12.552s] creating /home/ubuntu/crawler_ws/install/arduino_interface/share/ament_index
+[12.553s] creating /home/ubuntu/crawler_ws/install/arduino_interface/share/ament_index/resource_index
+[12.555s] creating /home/ubuntu/crawler_ws/install/arduino_interface/share/ament_index/resource_index/packages
+[12.557s] copying resource/arduino_interface -> /home/ubuntu/crawler_ws/install/arduino_interface/share/ament_index/resource_index/packages
+[12.559s] copying package.xml -> /home/ubuntu/crawler_ws/install/arduino_interface/share/arduino_interface
+[12.888s] Invoked command in '/home/ubuntu/crawler_ws/build/arduino_interface' returned '0': PYTHONPATH=/home/ubuntu/crawler_ws/install/arduino_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/arduino_interface --editable --build-directory /home/ubuntu/crawler_ws/build/arduino_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/arduino_interface

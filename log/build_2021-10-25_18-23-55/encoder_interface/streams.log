@@ -1,0 +1,25 @@
+[7.634s] Invoking command in '/home/ubuntu/crawler_ws/build/encoder_interface': PYTHONPATH=/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/encoder_interface --editable --build-directory /home/ubuntu/crawler_ws/build/encoder_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/encoder_interface
+[10.350s] running develop
+[12.009s] running egg_info
+[12.011s] creating encoder_interface.egg-info
+[12.012s] writing encoder_interface.egg-info/PKG-INFO
+[12.014s] writing dependency_links to encoder_interface.egg-info/dependency_links.txt
+[12.026s] writing entry points to encoder_interface.egg-info/entry_points.txt
+[12.028s] writing requirements to encoder_interface.egg-info/requires.txt
+[12.029s] writing top-level names to encoder_interface.egg-info/top_level.txt
+[12.033s] writing manifest file 'encoder_interface.egg-info/SOURCES.txt'
+[12.399s] reading manifest file 'encoder_interface.egg-info/SOURCES.txt'
+[12.407s] writing manifest file 'encoder_interface.egg-info/SOURCES.txt'
+[12.422s] running build_ext
+[12.425s] Creating /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/site.py
+[12.447s] Creating /home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages/encoder-interface.egg-link (link to .)
+[12.476s] Installing odom_pub script to /home/ubuntu/crawler_ws/install/encoder_interface/lib/encoder_interface
+[12.490s] 
+[12.491s] Installed /home/ubuntu/crawler_ws/build/encoder_interface
+[12.493s] running install_data
+[12.495s] creating /home/ubuntu/crawler_ws/install/encoder_interface/share/ament_index
+[12.496s] creating /home/ubuntu/crawler_ws/install/encoder_interface/share/ament_index/resource_index
+[12.510s] creating /home/ubuntu/crawler_ws/install/encoder_interface/share/ament_index/resource_index/packages
+[12.514s] copying resource/encoder_interface -> /home/ubuntu/crawler_ws/install/encoder_interface/share/ament_index/resource_index/packages
+[12.515s] copying package.xml -> /home/ubuntu/crawler_ws/install/encoder_interface/share/encoder_interface
+[12.987s] Invoked command in '/home/ubuntu/crawler_ws/build/encoder_interface' returned '0': PYTHONPATH=/home/ubuntu/crawler_ws/install/encoder_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/encoder_interface --editable --build-directory /home/ubuntu/crawler_ws/build/encoder_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/encoder_interface

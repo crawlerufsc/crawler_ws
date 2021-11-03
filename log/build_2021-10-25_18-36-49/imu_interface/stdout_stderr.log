@@ -1,0 +1,39 @@
+running develop
+Removing /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu-interface.egg-link (link to .)
+running egg_info
+writing ../../build/imu_interface/imu_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/imu_interface/imu_interface.egg-info/dependency_links.txt
+writing entry points to ../../build/imu_interface/imu_interface.egg-info/entry_points.txt
+writing requirements to ../../build/imu_interface/imu_interface.egg-info/requires.txt
+writing top-level names to ../../build/imu_interface/imu_interface.egg-info/top_level.txt
+reading manifest file '../../build/imu_interface/imu_interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/imu_interface/imu_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/crawler_ws/build/imu_interface/build
+creating /home/ubuntu/crawler_ws/build/imu_interface/build/lib
+creating /home/ubuntu/crawler_ws/build/imu_interface/build/lib/imu_interface
+copying imu_interface/MPU6050.py -> /home/ubuntu/crawler_ws/build/imu_interface/build/lib/imu_interface
+copying imu_interface/__init__.py -> /home/ubuntu/crawler_ws/build/imu_interface/build/lib/imu_interface
+copying imu_interface/imu_pub.py -> /home/ubuntu/crawler_ws/build/imu_interface/build/lib/imu_interface
+copying imu_interface/MPUConstants.py -> /home/ubuntu/crawler_ws/build/imu_interface/build/lib/imu_interface
+copying imu_interface/Quaternion.py -> /home/ubuntu/crawler_ws/build/imu_interface/build/lib/imu_interface
+running install
+running install_lib
+creating /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu_interface
+copying /home/ubuntu/crawler_ws/build/imu_interface/build/lib/imu_interface/MPU6050.py -> /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu_interface
+copying /home/ubuntu/crawler_ws/build/imu_interface/build/lib/imu_interface/__init__.py -> /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu_interface
+copying /home/ubuntu/crawler_ws/build/imu_interface/build/lib/imu_interface/imu_pub.py -> /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu_interface
+copying /home/ubuntu/crawler_ws/build/imu_interface/build/lib/imu_interface/MPUConstants.py -> /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu_interface
+copying /home/ubuntu/crawler_ws/build/imu_interface/build/lib/imu_interface/Quaternion.py -> /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu_interface
+byte-compiling /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu_interface/MPU6050.py to MPU6050.cpython-38.pyc
+byte-compiling /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu_interface/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu_interface/imu_pub.py to imu_pub.cpython-38.pyc
+byte-compiling /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu_interface/MPUConstants.py to MPUConstants.cpython-38.pyc
+byte-compiling /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu_interface/Quaternion.py to Quaternion.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/imu_interface/imu_interface.egg-info to /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu_interface-0.0.0-py3.8.egg-info
+running install_scripts
+Installing imu_pub script to /home/ubuntu/crawler_ws/install/imu_interface/lib/imu_interface
+writing list of installed files to '/home/ubuntu/crawler_ws/build/imu_interface/install.log'

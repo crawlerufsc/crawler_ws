@@ -1,0 +1,25 @@
+[7.632s] Invoking command in '/home/ubuntu/crawler_ws/build/imu_interface': PYTHONPATH=/home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/imu_interface --editable --build-directory /home/ubuntu/crawler_ws/build/imu_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/imu_interface
+[10.510s] running develop
+[12.264s] running egg_info
+[12.266s] creating imu_interface.egg-info
+[12.270s] writing imu_interface.egg-info/PKG-INFO
+[12.276s] writing dependency_links to imu_interface.egg-info/dependency_links.txt
+[12.282s] writing entry points to imu_interface.egg-info/entry_points.txt
+[12.286s] writing requirements to imu_interface.egg-info/requires.txt
+[12.289s] writing top-level names to imu_interface.egg-info/top_level.txt
+[12.316s] writing manifest file 'imu_interface.egg-info/SOURCES.txt'
+[12.809s] reading manifest file 'imu_interface.egg-info/SOURCES.txt'
+[12.812s] writing manifest file 'imu_interface.egg-info/SOURCES.txt'
+[12.826s] running build_ext
+[12.828s] Creating /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/site.py
+[12.843s] Creating /home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages/imu-interface.egg-link (link to .)
+[12.848s] Installing imu_pub script to /home/ubuntu/crawler_ws/install/imu_interface/lib/imu_interface
+[12.866s] 
+[12.869s] Installed /home/ubuntu/crawler_ws/build/imu_interface
+[12.870s] running install_data
+[12.871s] creating /home/ubuntu/crawler_ws/install/imu_interface/share/ament_index
+[12.874s] creating /home/ubuntu/crawler_ws/install/imu_interface/share/ament_index/resource_index
+[12.876s] creating /home/ubuntu/crawler_ws/install/imu_interface/share/ament_index/resource_index/packages
+[12.878s] copying resource/imu_interface -> /home/ubuntu/crawler_ws/install/imu_interface/share/ament_index/resource_index/packages
+[12.880s] copying package.xml -> /home/ubuntu/crawler_ws/install/imu_interface/share/imu_interface
+[13.090s] Invoked command in '/home/ubuntu/crawler_ws/build/imu_interface' returned '0': PYTHONPATH=/home/ubuntu/crawler_ws/install/imu_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/crawler_ws/install/imu_interface --editable --build-directory /home/ubuntu/crawler_ws/build/imu_interface/build --no-deps install_data --install-dir /home/ubuntu/crawler_ws/install/imu_interface

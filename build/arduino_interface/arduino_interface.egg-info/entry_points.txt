@@ -1,0 +1,3 @@
+[console_scripts]
+arduino_pub = arduino_interface.arduino_pub:main
+
