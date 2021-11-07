@@ -17,21 +17,19 @@ def generate_launch_description():
         package='imu_interface',
         executable='imu_pub',
     )
-    cam_node = Node(
-        package='usb_cam',
-        executable='usb_cam_node_exe'
-    )
-    """""
+    # cam_node = Node(
+    #     package='usb_cam',
+    #     executable='usb_cam_node_exe'
+    # )
     gps_node = Node(
         package='gps_interface',
         executable='gps_pub',
     )
-    """
 
     ld.add_action(arduino_node)
     ld.add_action(encoder_node)
     ld.add_action(imu_node)
-    #ld.add_action(gps_node)
+    ld.add_action(gps_node)
 
     return ld
     

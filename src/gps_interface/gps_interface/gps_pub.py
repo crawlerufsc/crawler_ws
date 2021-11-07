@@ -10,7 +10,7 @@ from sensor_msgs.msg import NavSatFix
 class PubSub(Node):
 
     def __init__(self):
-        super().__init__('arduino_interface')
+        super().__init__('gps_interface')
         self.get_logger().info('Started /gps_interface node')
 
         self.servo_publisher_ = self.create_publisher(NavSatFix, 'fix', 10)
@@ -26,7 +26,9 @@ class PubSub(Node):
     def gps_callback(self):
             gps_msg = NavSatFix()
             line = self.sio.readline()
+            self.get_logger().info(line)
             msg = pynmea2.parse(line)
+            self.get_logger().info(str(msg))
             gps_msg.latitude = msg.latitude
             gps_msg.longitude = msg.longitude
             gps_msg.altitude = msg.altitude
