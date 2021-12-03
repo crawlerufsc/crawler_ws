@@ -15,12 +15,12 @@
   <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
-  <exec_depend>encoder_interface</exec_depend>
-  <exec_depend>imu_interface</exec_depend>
-  <exec_depend>gps_interface</exec_depend>
+  <!-- <exec_depend>encoder_interface</exec_depend> -->
+  <!-- <exec_depend>imu_interface</exec_depend> -->
+  <!-- <exec_depend>gps_interface</exec_depend> -->
   <exec_depend>joy_linux</exec_depend>
-  <exec_depend>usb_cam</exec_depend>
-  <exec_depend>rplidar_ros</exec_depend>
+  <!-- <exec_depend>usb_cam</exec_depend> -->
+  <!-- <exec_depend>rplidar_ros</exec_depend> -->
   <exec_depend>my_msgs</exec_depend>
 
   <export>
