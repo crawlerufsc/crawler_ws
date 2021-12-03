@@ -1,0 +1,5 @@
+std_msgs/Header header
+my_msgs/LinearAcceleration linear_acceleration
+my_msgs/AngularVelocity angular_velocity
+my_msgs/Orientation orientation
+my_msgs/YPR ypr

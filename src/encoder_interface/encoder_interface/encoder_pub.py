@@ -19,7 +19,7 @@ class OdomPub(Node):
         self.publisher_ = self.create_publisher(FloatH, 'odom', 10)
         self.get_logger().info('Started publisher on /odom topic')
 
-        timer_period = 1/150  # seconds
+        timer_period = 1/100  # seconds
         self.timer = self.create_timer(timer_period, self.odom_callback)
         
         self.encoder = AS5600()
@@ -32,11 +32,18 @@ class OdomPub(Node):
         
         odom_msg = FloatH()
         output = self.encoder.getPosition()
+        print("output = {}".format(output))
+        print("2self.revolutions = {}".format(self.revolutions))
 
-        if ((self.lastOutput - output) > 2047):
+        # if ((self.lastOutput - output) > 2047):
+        #     self.revolutions += 1
+
+        # if ((self.lastOutput - output) < -2047):
+        #     self.revolutions -= 1
+        if ((self.lastOutput - output) > 4096-500):
             self.revolutions += 1
 
-        if ((self.lastOutput - output) < -2047):
+        if ((self.lastOutput - output) < -300): #nao anda de re
             self.revolutions -= 1
 
         self.lastOutput = output

@@ -27,6 +27,12 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/IntH.msg"
   "msg/FloatH.msg"
+  "msg/AngularVelocity.msg"
+  "msg/LinearAcceleration.msg"
+  "msg/Orientation.msg"
+  "msg/YPR.msg"
+  "msg/Imu.msg"
+  "msg/Path.msg"
   DEPENDENCIES std_msgs
  )
  

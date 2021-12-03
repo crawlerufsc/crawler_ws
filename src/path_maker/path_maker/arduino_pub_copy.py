@@ -6,7 +6,6 @@ from rclpy.node import Node
 from sensor_msgs.msg import Joy
 from my_msgs.msg import IntH
 
-max_pwm = 40
 
 class PubSub(Node):
 
@@ -38,28 +37,23 @@ class PubSub(Node):
     def listener_callback(self, joy_msg):
         
         #self.get_logger().info('Axis 1: %f Axis 3: %f' %(joy_msg.axes[1], joy_msg.axes[3]))
-        # self.motor_state_msg.value = int(255*abs((joy_msg.axes[1])))
-        self.motor_state_msg.value = int(max_pwm*abs((joy_msg.axes[1]))) #limitar a velocidade para nao travar
+        self.motor_state_msg.value = int(255*abs((joy_msg.axes[1])))
         # self.servo_state_msg.value = int(45*(joy_msg.axes[3]))+45
-        self.servo_state_msg.value = int(45*(joy_msg.axes[3]))+45 #limitar angulo para nao travar
+        self.servo_state_msg.value = int(25*(joy_msg.axes[3]))+45 #limitar angulo para nao travar
         
         # b
         if joy_msg.buttons[1] == 1:
-            # self.motor_state_msg.value = int(255*0.7)
-            self.motor_state_msg.value = int(max_pwm*0.7)
+            self.motor_state_msg.value = int(255*0.7)
             self.servo_state_msg.value = -30+45
-            
         
         # x
         if joy_msg.buttons[2] == 1:
-            # self.motor_state_msg.value = int(255*0.7)
-            self.motor_state_msg.value = int(max_pwm*0.7)
+            self.motor_state_msg.value = int(255*0.7)
             self.servo_state_msg.value = 30+45
         
         # y
         if joy_msg.buttons[3] == 1:
-            # self.motor_state_msg.value = int(255)
-            self.motor_state_msg.value = int(max_pwm)
+            self.motor_state_msg.value = int(255)
             self.servo_state_msg.value = 45
     
     def pub_callback(self):

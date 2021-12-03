@@ -1,3 +1,0 @@
-[console_scripts]
-encoder_pub = encoder_interface.encoder_pub:main
-

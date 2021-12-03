@@ -1,1 +1,0 @@
-/home/ubuntu/crawler_ws/src/gps_interface/setup.py
