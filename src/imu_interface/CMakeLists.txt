@@ -28,7 +28,7 @@ ADD_LIBRARY(LibsModule
 link_libraries(LibsModule -lbcm2835 -lm -lcap)
 
 add_executable(imu_pub src/imu_pub.cpp)
-add_executable(imu_pub_copy src/imu_pub_copy.cpp)
+# add_executable(imu_pub_copy src/imu_pub_copy.cpp)
 
 
 target_link_libraries(imu_pub ${catkin_LIBRARIES} bcm2835)
@@ -36,17 +36,17 @@ target_link_libraries(imu_pub LibsModule ${catkin_LIBRARIES})
 
 ament_target_dependencies(imu_pub rclcpp std_msgs sensor_msgs)
 
-target_link_libraries(imu_pub_copy LibsModule ${catkin_LIBRARIES})
+# target_link_libraries(imu_pub_copy LibsModule ${catkin_LIBRARIES})
 
-ament_target_dependencies(imu_pub_copy rclcpp std_msgs sensor_msgs)
+# ament_target_dependencies(imu_pub_copy rclcpp std_msgs sensor_msgs)
 
 install(TARGETS
   imu_pub
   DESTINATION lib/${PROJECT_NAME})
   
-install(TARGETS
-  imu_pub_copy 
-  DESTINATION lib/${PROJECT_NAME})
+# install(TARGETS
+#   imu_pub_copy 
+#   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
